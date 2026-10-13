@@ -41,7 +41,13 @@ npm run build        # сборка в dist/
 npm run build:single # всё приложение в одном файле dist-single/index.html
 ```
 
-GitHub Actions публикует сборку на GitHub Pages при пуше в основную ветку (Settings → Pages → Source: GitHub Actions).
+**GitHub Pages.** Корневой `index.html` — готовая сборка всего приложения в одном файле; исходная страница для
+разработки — `web/index.html`. Pages публикуется из ветки `main`, папка `/` (Settings → Pages → Deploy from a branch).
+После изменений в коде обновите сборку в корне и закоммитьте её:
+
+```bash
+npm run build:pages
+```
 
 ## Структура
 

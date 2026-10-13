@@ -10,7 +10,8 @@
     "build:single": "tsc -b && vite build --mode single",
     "preview": "vite preview",
     "test": "vitest run",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "build:pages": "npm run build:single && cp dist-single/index.html index.html && cp public/icon.svg public/manifest.webmanifest ."
   },
   "dependencies": {
     "docx": "^9.7.1",

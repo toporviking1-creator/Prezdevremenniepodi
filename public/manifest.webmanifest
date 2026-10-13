@@ -1,0 +1,12 @@
+{
+  "name": "ПР-помощник — преждевременные роды и ПРПО",
+  "short_name": "ПР-помощник",
+  "description": "Тактика при преждевременных родах и ПРПО по КР 2024, чек-лист, препараты и конструктор заключений",
+  "lang": "ru",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f5e8c",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
